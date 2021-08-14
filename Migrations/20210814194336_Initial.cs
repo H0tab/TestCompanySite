@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace MyCompanySite2.Migrations
 {
-    public partial class _initial : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -194,21 +194,21 @@ namespace MyCompanySite2.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "eab9e247-4f9c-48b6-aa52-f75f0b2fa57f", "758eaa99-1eb6-4e39-b969-53624be20039", "admin", "ADMIN" });
+                values: new object[] { "eab9e247-4f9c-48b6-aa52-f75f0b2fa57f", "12fbe709-fe1d-49c1-a397-850312b651e8", "admin", "ADMIN" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "b6bec49c-7503-4b41-9c79-b0163c829223", 0, "07c9d991-1a96-4b0f-94ad-2a11bbffb7d4", "company@mail.ru", true, false, null, "COMPANY@MAIL.RU", "ADMIN", "AQAAAAEAACcQAAAAEEuFP1H4TQ7hfL7A89nZuLzHW2c3nZDZERtvUL+ZPDcDAIu/5wYBeLlJx1TYZdEixQ==", null, false, "", false, "admin" });
+                values: new object[] { "b6bec49c-7503-4b41-9c79-b0163c829223", 0, "945e59e0-51b3-44f2-808f-c8382c3464d2", "company@mail.ru", true, false, null, "COMPANY@MAIL.RU", "ADMIN", "AQAAAAEAACcQAAAAEMc/fcY1siI0wthEI5Bp4ts40Dmy6HzwiAiDDrntXouE6CMWE2kkn7BOSsUHsYjcJw==", null, false, "", false, "admin" });
 
             migrationBuilder.InsertData(
                 table: "TextFields",
                 columns: new[] { "Id", "CodeWord", "DateAdded", "MetaDescription", "MetaKeywords", "MetaTitle", "Subtitle", "Text", "Title", "TitleImagePath" },
                 values: new object[,]
                 {
-                    { new Guid("4b77f8a6-ed03-4cd9-be6d-9dd82d8bcb30"), "PageIndex", new DateTime(2021, 5, 29, 22, 37, 31, 996, DateTimeKind.Utc).AddTicks(9183), null, null, null, null, null, "Главная", null },
-                    { new Guid("4cdeb593-ed26-4171-a746-931863b8c753"), "PageServices", new DateTime(2021, 5, 29, 22, 37, 31, 997, DateTimeKind.Utc).AddTicks(1467), null, null, null, null, null, "Сервисы", null },
-                    { new Guid("808e4477-ac57-474c-beb6-b29f0ee26b26"), "PageContacts", new DateTime(2021, 5, 29, 22, 37, 31, 997, DateTimeKind.Utc).AddTicks(1528), null, null, null, null, null, "Контакты", null }
+                    { new Guid("4b77f8a6-ed03-4cd9-be6d-9dd82d8bcb30"), "PageIndex", new DateTime(2021, 8, 14, 19, 43, 36, 361, DateTimeKind.Utc).AddTicks(2865), null, null, null, null, null, "Главная", null },
+                    { new Guid("4cdeb593-ed26-4171-a746-931863b8c753"), "PageServices", new DateTime(2021, 8, 14, 19, 43, 36, 361, DateTimeKind.Utc).AddTicks(4609), null, null, null, null, null, "Сервисы", null },
+                    { new Guid("808e4477-ac57-474c-beb6-b29f0ee26b26"), "PageContacts", new DateTime(2021, 8, 14, 19, 43, 36, 361, DateTimeKind.Utc).AddTicks(4674), null, null, null, null, null, "Контакты", null }
                 });
 
             migrationBuilder.InsertData(

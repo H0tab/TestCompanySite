@@ -16,7 +16,7 @@ namespace MyCompanySite2.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.5")
+                .HasAnnotation("ProductVersion", "5.0.9")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -49,7 +49,7 @@ namespace MyCompanySite2.Migrations
                         new
                         {
                             Id = "eab9e247-4f9c-48b6-aa52-f75f0b2fa57f",
-                            ConcurrencyStamp = "758eaa99-1eb6-4e39-b969-53624be20039",
+                            ConcurrencyStamp = "12fbe709-fe1d-49c1-a397-850312b651e8",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         });
@@ -148,13 +148,13 @@ namespace MyCompanySite2.Migrations
                         {
                             Id = "b6bec49c-7503-4b41-9c79-b0163c829223",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "07c9d991-1a96-4b0f-94ad-2a11bbffb7d4",
+                            ConcurrencyStamp = "945e59e0-51b3-44f2-808f-c8382c3464d2",
                             Email = "company@mail.ru",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "COMPANY@MAIL.RU",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEEuFP1H4TQ7hfL7A89nZuLzHW2c3nZDZERtvUL+ZPDcDAIu/5wYBeLlJx1TYZdEixQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEMc/fcY1siI0wthEI5Bp4ts40Dmy6HzwiAiDDrntXouE6CMWE2kkn7BOSsUHsYjcJw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -328,21 +328,21 @@ namespace MyCompanySite2.Migrations
                         {
                             Id = new Guid("4b77f8a6-ed03-4cd9-be6d-9dd82d8bcb30"),
                             CodeWord = "PageIndex",
-                            DateAdded = new DateTime(2021, 5, 29, 22, 37, 31, 996, DateTimeKind.Utc).AddTicks(9183),
+                            DateAdded = new DateTime(2021, 8, 14, 19, 43, 36, 361, DateTimeKind.Utc).AddTicks(2865),
                             Title = "Главная"
                         },
                         new
                         {
                             Id = new Guid("4cdeb593-ed26-4171-a746-931863b8c753"),
                             CodeWord = "PageServices",
-                            DateAdded = new DateTime(2021, 5, 29, 22, 37, 31, 997, DateTimeKind.Utc).AddTicks(1467),
+                            DateAdded = new DateTime(2021, 8, 14, 19, 43, 36, 361, DateTimeKind.Utc).AddTicks(4609),
                             Title = "Сервисы"
                         },
                         new
                         {
                             Id = new Guid("808e4477-ac57-474c-beb6-b29f0ee26b26"),
                             CodeWord = "PageContacts",
-                            DateAdded = new DateTime(2021, 5, 29, 22, 37, 31, 997, DateTimeKind.Utc).AddTicks(1528),
+                            DateAdded = new DateTime(2021, 8, 14, 19, 43, 36, 361, DateTimeKind.Utc).AddTicks(4674),
                             Title = "Контакты"
                         });
                 });
