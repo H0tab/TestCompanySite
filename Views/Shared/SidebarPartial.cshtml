@@ -1,0 +1,12 @@
+﻿<!-- Sidebar -->
+<section>
+    <h3>Наши услуги</h3>
+    <div class="col-4 col-12-medium">
+        <cache>
+            @(await Component.InvokeAsync<SidebarViewComponent>())
+        </cache>
+    </div>
+    <footer>
+        <a asp-controller="Services" asp-action="Index" class="button icon solid fa-info-circle">Больше</a>
+    </footer>
+</section>
